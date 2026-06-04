@@ -1,0 +1,21 @@
+# AGENTS.md — Contexto para agentes AI
+
+> Archivo de entrada para agentes que leen `AGENTS.md` (Codex y otros).
+> No dupliques reglas: este archivo apunta a la fuente única.
+
+## Reglas operativas
+
+Fuente única de verdad: `rules/OPERATING_RULES.md`.
+Léelas antes de tocar cualquier archivo.
+
+## Antes de empezar
+
+1. `rules/OPERATING_RULES.md` — reglas operativas.
+2. `openspec/STATUS.md` — estado actual.
+3. `docs/AGENTS_WORKFLOW.md` — flujo de trabajo.
+
+## Enforcement
+
+Git hooks (`.githooks/`) bloquean push a `main`, force push, `.env` reales y
+secretos, para cualquier agente y para humanos. Overrides documentados en las
+reglas. Setup: `./setup.sh`.

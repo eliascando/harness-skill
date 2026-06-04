@@ -1,0 +1,20 @@
+{
+  "name": "harness-skill",
+  "owner": {
+    "name": "eliascando"
+  },
+  "metadata": {
+    "description": "Harness de gobernanza para agentes de IA: reglas que se cumplen solas (git hooks + contexto), configurado human-in-the-loop."
+  },
+  "plugins": [
+    {
+      "name": "harness-skill",
+      "source": "./plugins/harness-skill",
+      "description": "Configura git hooks + reglas que protegen tu repo de acciones no deseadas de agentes y humanos (push a main, .env, secretos). Human-in-the-loop, agnostico a la herramienta.",
+      "version": "1.0.0",
+      "author": {
+        "name": "eliascando"
+      }
+    }
+  ]
+}

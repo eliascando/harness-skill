@@ -1,0 +1,9 @@
+{
+  "name": "harness-skill",
+  "description": "Harness de gobernanza para agentes de IA: git hooks + reglas que se cumplen solas, configurado human-in-the-loop. Agnostico a la herramienta.",
+  "version": "1.0.0",
+  "author": {
+    "name": "eliascando"
+  },
+  "license": "MIT"
+}

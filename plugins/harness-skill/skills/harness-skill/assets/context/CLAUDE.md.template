@@ -1,0 +1,22 @@
+# Contexto del proyecto (Claude Code)
+
+> Claude Code lee este archivo al iniciar. NO dupliques reglas aquí:
+> apuntá a la fuente única con `@import`.
+
+## Reglas operativas (fuente única de verdad)
+
+@rules/OPERATING_RULES.md
+
+## Orden de lectura antes de tocar el proyecto
+
+1. Las reglas importadas arriba.
+2. `openspec/STATUS.md` — estado actual y próximos pasos.
+3. `docs/AGENTS_WORKFLOW.md` — el flujo de trabajo concreto.
+
+## Enforcement
+
+Las reglas duras están impuestas por git hooks (`.githooks/`), que corren para
+cualquier agente y para humanos. Push directo a `main`, force push, `.env`
+reales y secretos están **bloqueados**. Overrides documentados en las reglas.
+
+Instalación / re-sincronización del harness: `./setup.sh`

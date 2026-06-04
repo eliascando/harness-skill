@@ -1,0 +1,20 @@
+# Secretos — nunca versionar
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.sample
+
+# Dumps / backups
+*.dump
+*.sql.gz
+*.backup
+*.bak
+
+# OS / editores
+.DS_Store
+Thumbs.db
+*.swp
+
+# Dependencias
+node_modules/

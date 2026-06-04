@@ -1,0 +1,8 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "./rules/OPERATING_RULES.md",
+    "./openspec/STATUS.md"
+  ],
+  "plugin": ["./.opencode/plugins/rules-enforcer.ts"]
+}
