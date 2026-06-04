@@ -17,6 +17,25 @@ pregunta y genera solo lo mínimo adaptado**. Human-in-the-loop: no asume nada.
 > Inspirado en patrones de gobernanza de agentes ya existentes en la comunidad.
 > Esta es una implementación concreta, agnóstica y empaquetada como skill.
 
+## Instalación: un prompt
+
+La forma más simple. Copia esto y pégaselo a tu agente (Claude Code, Cursor,
+opencode, Gemini, Codex…) en la raíz de tu proyecto:
+
+```text
+Instala el harness de https://github.com/eliascando/harness-skill en este
+proyecto: clónalo en una carpeta temporal, lee
+plugins/harness-skill/skills/harness-skill/SKILL.md y sigue ese playbook.
+Investiga mi proyecto, pregúntame lo necesario (human-in-the-loop) y crea solo
+los archivos mínimos adaptados. No asumas nada.
+```
+
+El agente clona el repo, lee el playbook y configura todo **contigo**: detecta tu
+contexto, te pregunta y crea solo lo mínimo. Eso es todo.
+
+> ¿Prefieres un comando reutilizable (`/harness-setup`) o el marketplace de Claude
+> Code? Ver [Independiente de la herramienta](#independiente-de-la-herramienta).
+
 ## Independiente de la herramienta
 
 El núcleo es un **playbook** en markdown
